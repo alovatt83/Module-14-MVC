@@ -1,5 +1,5 @@
 :root {
-    --primary: #585c5998;
+    --primary: #ffffff98;
     --secondary: #dce9d5;
     --tertiary: #788585;
     --light-dark: #a1a0a1;
@@ -78,27 +78,35 @@ h1 {
     
       
 button {
-  background: #098191;
-  transition: background ease .25s;
-  border-radius: 5px;
-  display: inline-block;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  margin: 0;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 1.2rem;
-  cursor: pointer;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
-button:hover {
-  background: #1d0fe6
-}
+
+button:hover,
 button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
 }
 
 
@@ -114,16 +122,16 @@ p {
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: white;
+    color: black;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: white;
     transform: translate(-1px, -1px);
 }
 
 .btn:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
+    background-color: black;
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
 }
@@ -134,7 +142,7 @@ p {
 
 .btn-back {
     border-radius: var(--border-radius);
-    color: var(--primary);
+    color: black;
     border: none;
     outline: none;
     background-color: var(--light-dark);
@@ -276,7 +284,7 @@ footer {
 }
 
 .form-input {
-    width:40%;
+    width: 100%;
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
