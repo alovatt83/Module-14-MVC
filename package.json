@@ -2,9 +2,10 @@
   "name": "Module-14-MVC",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "jest": "^26.6.3",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
+    "nodejs": "^0.0.0",
     "seed": "^0.4.4",
     "seeds": "^2.3.1"
   }

@@ -1,4 +1,4 @@
    
-DROP DATABASE IF EXISTS techBlog;
+DROP DATABASE IF EXISTS techBlog_db;
 
-CREATE DATABASE techBlog;
+CREATE DATABASE techBlog_db;

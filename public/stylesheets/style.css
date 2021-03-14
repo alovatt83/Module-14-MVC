@@ -1,5 +1,5 @@
 :root {
-    --primary: #ccdad1;
+    --primary: #585c5998;
     --secondary: #dce9d5;
     --tertiary: #788585;
     --light-dark: #a1a0a1;
@@ -15,13 +15,12 @@ body {
     background-color: var(--primary);
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
     color: var(--dark);
     line-height: 1.5;
     font-size: 24px;
 }
 
-h1,
 h2,
 h3,
 h5,
@@ -50,6 +49,58 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+      
+
+.masthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  background-size: cover !important;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,0.65) 100%), url(./public/images/hero.jpg) no-repeat center center scroll;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  color: #eee;
+  font-size: 11vmin;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
+}
+    
+      
+button {
+  background: #098191;
+  transition: background ease .25s;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:hover {
+  background: #1d0fe6
+}
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
 
 p {
     font-size: 1.2rem;
@@ -102,6 +153,11 @@ p {
     background-color: var(--tertiary);
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
+}
+.btn:visited {
+    text-decoration: none;
+    color: white;
+
 }
 
 .hero {
@@ -196,6 +252,10 @@ h4 {
     float: top;
 }
 
+footer span 
+{
+    justify-content: left;
+}
 footer {
     border-top: 1px solid #ccc;
     display: flex;
@@ -216,7 +276,7 @@ footer {
 }
 
 .form-input {
-    width: 100%;
+    width:40%;
     padding: 3%;
     margin: 5px 0;
     font-size: 1.2rem;
