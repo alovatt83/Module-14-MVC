@@ -26,12 +26,9 @@ Command Line: npm i express<br />
 Command Line: npm i --save seqeulize<br />
 Command Line: npm i dotenv<br />
 Command Line: npm start
-
 Browser link: https://localhost:3001
-
 <br />
-Remote:
-Visit Deployed Link https://techblog-uoft.herokuapp.com
+
 
 ## Usage
 View, Post, Edit or Delete your own blog conversations
@@ -41,7 +38,7 @@ View, Post, Edit or Delete your own blog conversations
 
 
 ## Deployed
-https://frozen-fortress-86170.herokuapp.com 
+https://techblog-uoft.herokuapp.com
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-orange)
@@ -49,7 +46,7 @@ https://frozen-fortress-86170.herokuapp.com
 This application is covered by the MIT license. 
 
 ## Contributing
-Visit repo link to contribue. https://github.com/alovatt83/ExpressJS-Notes
+Visit repo link to contribue. https://github.com/alovatt83/
 
 ## Testing
 Tested on macOS Big sur
