@@ -7,8 +7,8 @@ const postData = [{
 
     },
     {
-        title: 'Favourite hockey team to win the 2021 Stanley cup',
-        content: 'Obviously, the answer is the Toronto Maple Leafs',
+        title: 'Favourite hockey team to win the 2021 Stanley cup?',
+        content: 'Obviously, the answer is the Toronto Maple Leafs.',
         user_id: 2
     },
     {
