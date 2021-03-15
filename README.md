@@ -1,4 +1,4 @@
-<h1 align="center">Model View Controllers</h1>
+<h1 align="center">Model View Controllers - Tech Blog</h1>
   
 ![badge](https://img.shields.io/badge/license-MIT-orange)<br />
 
